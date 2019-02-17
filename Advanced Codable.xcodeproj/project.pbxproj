@@ -8,12 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		606A08602219D2450040CFAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606A085F2219D2450040CFAD /* AppDelegate.swift */; };
-		606A08622219D2450040CFAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606A08612219D2450040CFAD /* ViewController.swift */; };
+		606A08622219D2450040CFAD /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606A08612219D2450040CFAD /* MainViewController.swift */; };
 		606A08652219D2450040CFAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 606A08632219D2450040CFAD /* Main.storyboard */; };
 		606A08672219D2480040CFAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 606A08662219D2480040CFAD /* Assets.xcassets */; };
 		606A086A2219D2480040CFAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 606A08682219D2480040CFAD /* LaunchScreen.storyboard */; };
 		606A08752219D2480040CFAD /* Advanced_CodableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606A08742219D2480040CFAD /* Advanced_CodableTests.swift */; };
 		606A08802219D2480040CFAD /* Advanced_CodableUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606A087F2219D2480040CFAD /* Advanced_CodableUITests.swift */; };
+		606A088F2219D5010040CFAD /* classes.json in Resources */ = {isa = PBXBuildFile; fileRef = 606A088E2219D5010040CFAD /* classes.json */; };
+		606A08912219D6E30040CFAD /* computer_specs.json in Resources */ = {isa = PBXBuildFile; fileRef = 606A08902219D6E30040CFAD /* computer_specs.json */; };
+		606A08942219D86F0040CFAD /* Class.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606A08932219D86F0040CFAD /* Class.swift */; };
+		606A08962219D9D50040CFAD /* ParseClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606A08952219D9D50040CFAD /* ParseClasses.swift */; };
+		606A08982219DC9D0040CFAD /* ClassesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606A08972219DC9D0040CFAD /* ClassesTableViewController.swift */; };
+		606A089A2219DCB00040CFAD /* OperatingSystemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606A08992219DCB00040CFAD /* OperatingSystemViewController.swift */; };
+		606A089C2219DDF00040CFAD /* ClassesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606A089B2219DDF00040CFAD /* ClassesTableViewCell.swift */; };
+		606A089E2219E22F0040CFAD /* OperatingSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606A089D2219E22F0040CFAD /* OperatingSystem.swift */; };
+		606A08A02219E2AF0040CFAD /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606A089F2219E2AF0040CFAD /* Extensions.swift */; };
+		606A08A22219E3840040CFAD /* ParseOperatingSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606A08A12219E3840040CFAD /* ParseOperatingSystem.swift */; };
+		606A08A62219EA470040CFAD /* OperatingSystemsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606A08A52219EA470040CFAD /* OperatingSystemsTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +47,7 @@
 /* Begin PBXFileReference section */
 		606A085C2219D2450040CFAD /* Advanced Codable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Advanced Codable.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		606A085F2219D2450040CFAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		606A08612219D2450040CFAD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		606A08612219D2450040CFAD /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		606A08642219D2450040CFAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		606A08662219D2480040CFAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		606A08692219D2480040CFAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +58,17 @@
 		606A087B2219D2480040CFAD /* Advanced CodableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Advanced CodableUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		606A087F2219D2480040CFAD /* Advanced_CodableUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Advanced_CodableUITests.swift; sourceTree = "<group>"; };
 		606A08812219D2480040CFAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		606A088E2219D5010040CFAD /* classes.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = classes.json; sourceTree = "<group>"; };
+		606A08902219D6E30040CFAD /* computer_specs.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = computer_specs.json; sourceTree = "<group>"; };
+		606A08932219D86F0040CFAD /* Class.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Class.swift; sourceTree = "<group>"; };
+		606A08952219D9D50040CFAD /* ParseClasses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParseClasses.swift; sourceTree = "<group>"; };
+		606A08972219DC9D0040CFAD /* ClassesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassesTableViewController.swift; sourceTree = "<group>"; };
+		606A08992219DCB00040CFAD /* OperatingSystemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperatingSystemViewController.swift; sourceTree = "<group>"; };
+		606A089B2219DDF00040CFAD /* ClassesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassesTableViewCell.swift; sourceTree = "<group>"; };
+		606A089D2219E22F0040CFAD /* OperatingSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperatingSystem.swift; sourceTree = "<group>"; };
+		606A089F2219E2AF0040CFAD /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		606A08A12219E3840040CFAD /* ParseOperatingSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParseOperatingSystem.swift; sourceTree = "<group>"; };
+		606A08A52219EA470040CFAD /* OperatingSystemsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperatingSystemsTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +119,15 @@
 		606A085E2219D2450040CFAD /* Advanced Codable */ = {
 			isa = PBXGroup;
 			children = (
+				606A08922219D8540040CFAD /* model */,
+				606A088D2219D4F10040CFAD /* data */,
 				606A085F2219D2450040CFAD /* AppDelegate.swift */,
-				606A08612219D2450040CFAD /* ViewController.swift */,
+				606A08612219D2450040CFAD /* MainViewController.swift */,
+				606A08992219DCB00040CFAD /* OperatingSystemViewController.swift */,
+				606A08972219DC9D0040CFAD /* ClassesTableViewController.swift */,
+				606A08A52219EA470040CFAD /* OperatingSystemsTableViewCell.swift */,
 				606A08632219D2450040CFAD /* Main.storyboard */,
+				606A089B2219DDF00040CFAD /* ClassesTableViewCell.swift */,
 				606A08662219D2480040CFAD /* Assets.xcassets */,
 				606A08682219D2480040CFAD /* LaunchScreen.storyboard */,
 				606A086B2219D2480040CFAD /* Info.plist */,
@@ -123,6 +151,27 @@
 				606A08812219D2480040CFAD /* Info.plist */,
 			);
 			path = "Advanced CodableUITests";
+			sourceTree = "<group>";
+		};
+		606A088D2219D4F10040CFAD /* data */ = {
+			isa = PBXGroup;
+			children = (
+				606A088E2219D5010040CFAD /* classes.json */,
+				606A08902219D6E30040CFAD /* computer_specs.json */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		606A08922219D8540040CFAD /* model */ = {
+			isa = PBXGroup;
+			children = (
+				606A08932219D86F0040CFAD /* Class.swift */,
+				606A08952219D9D50040CFAD /* ParseClasses.swift */,
+				606A089D2219E22F0040CFAD /* OperatingSystem.swift */,
+				606A08A12219E3840040CFAD /* ParseOperatingSystem.swift */,
+				606A089F2219E2AF0040CFAD /* Extensions.swift */,
+			);
+			path = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,7 +280,9 @@
 			files = (
 				606A086A2219D2480040CFAD /* LaunchScreen.storyboard in Resources */,
 				606A08672219D2480040CFAD /* Assets.xcassets in Resources */,
+				606A088F2219D5010040CFAD /* classes.json in Resources */,
 				606A08652219D2450040CFAD /* Main.storyboard in Resources */,
+				606A08912219D6E30040CFAD /* computer_specs.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +307,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				606A08622219D2450040CFAD /* ViewController.swift in Sources */,
+				606A08A22219E3840040CFAD /* ParseOperatingSystem.swift in Sources */,
+				606A08982219DC9D0040CFAD /* ClassesTableViewController.swift in Sources */,
+				606A08A02219E2AF0040CFAD /* Extensions.swift in Sources */,
+				606A08622219D2450040CFAD /* MainViewController.swift in Sources */,
 				606A08602219D2450040CFAD /* AppDelegate.swift in Sources */,
+				606A08A62219EA470040CFAD /* OperatingSystemsTableViewCell.swift in Sources */,
+				606A08962219D9D50040CFAD /* ParseClasses.swift in Sources */,
+				606A08942219D86F0040CFAD /* Class.swift in Sources */,
+				606A089C2219DDF00040CFAD /* ClassesTableViewCell.swift in Sources */,
+				606A089E2219E22F0040CFAD /* OperatingSystem.swift in Sources */,
+				606A089A2219DCB00040CFAD /* OperatingSystemViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
